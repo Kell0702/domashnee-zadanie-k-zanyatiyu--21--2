@@ -4,9 +4,9 @@ public class Main {
         int deposits = 1100;
         int scorenomber;
 
-        int bonus = 1 * deposits / 100;
+
         if (deposits >= 1000) {
-            scorenomber = score + deposits + bonus;
+            scorenomber = score + deposits + (1 * deposits / 100);
         }else {
             scorenomber = score + deposits;
         }
